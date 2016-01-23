@@ -1,0 +1,2 @@
+defmodule ElixirMeetup do
+end
