@@ -1,20 +1,8 @@
-# ElixirMeetup
+# Elixir Concurrency Code
 
-**TODO: Add description**
 
-## Installation
+Source Code for [Elixir Concurrency](http://miguelcoba.github.io/elixir-concurrency)
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+MIT licensed
 
-  1. Add elixir_concurrency_code to your list of dependencies in `mix.exs`:
-
-        def deps do
-          [{:elixir_concurrency_code, "~> 0.0.1"}]
-        end
-
-  2. Ensure elixir_concurrency_code is started before your application:
-
-        def application do
-          [applications: [:elixir_concurrency_code]]
-        end
-
+Copyright (C) 2017 Miguel Cobá, https://github.com/miguelcoba

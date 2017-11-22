@@ -5,7 +5,7 @@ defmodule Client do
 	end
 
 	def loop(counter_pid) do
-		send counter_pid, {:next, self}
+		send counter_pid, {:next, self()}
 		receive do
 			{:ok, counter} -> IO.puts "Got #{counter}"
 		after
